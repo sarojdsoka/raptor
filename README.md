@@ -40,6 +40,7 @@ Since this is a GRUB theme, a live preview depends on your system. However, imag
      GRUB_THEME="/boot/grub/themes/raptor/theme.txt"
    ```
   Save and exit (Ctrl+O, Enter, Ctrl+X).
+
 4.**Update GRUB Run the following command to apply the theme**
   ```bash
     sudo update-grub
