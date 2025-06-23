@@ -1,9 +1,9 @@
 # Background and Terminal Settings
-title-text: "Choose Youre Raptor"
+title-text: "" 
 desktop-image: "background.png"
 terminal-left: "0"
 terminal-top: "0"
-terminal-border: "0"
+terminal-border: "2"
 terminal-width: "100%"
 terminal-height: "100%"
 
@@ -13,31 +13,30 @@ terminal-height: "100%"
   top = 15%
   width = 80%
   height = 70%
-  item_color = "#FFFFFF"  # White text for readability
-  item_font = "Ubuntu Regular 16"
-  selected_item_font = "Ubuntu Bold 18"
-  selected_item_color = "#FF69B4"  # Hot pink for selected item (neon vibe)
-  icon_width = 48
-  icon_height = 48
-  item_icon_space = 20
-  item_height = 60
-  item_padding = 10
-  item_spacing = 30
-  selected_item_pixmap_style = "select_*.png"  # Neon highlight for selected item
-   
+  item_color = "#FFFFFF"  
+  item_font = "Ubuntu Regular 18"  
+  selected_item_font = "Ubuntu Bold 30"  
+  selected_item_color = "#FF69B4"  
+  icon_width = 64  
+  icon_height = 64
+  item_icon_space = 25
+  item_height = 70  
+  item_padding = 15  
+  item_spacing = 35  
+  selected_item_pixmap_style = "rap_*.png"  
 }
 
 # Progress Bar Settings
 + progress_bar {
   id = "__timeout__"
   left = 10%
-  top = 85%
-  height = 5%
+  top = 87%
+  height = 6%  
   width = 80%
-  font = "Ubuntu Bold 14"
-  text_color = "#FFFFFF"  # White text
-  fg_color = "#FF1493"  # Deep pink for progress fill (neon effect)
-  border_color = "#FF69B4"  # Hot pink border
-  bg_color = "#1E1E2F"  # Dark background to match dinosaur
-  text = "Booting in %d seconds..."
+  font = "Ubuntu Bold 16" 
+  text_color = "#FFFFFF"  
+  fg_color = "#FF1493"  
+  border_color = "#FF69B4"
+  bg_color = "#1E1E2F"  
+  text = "Booting Your Raptor in %d seconds..."
 }
