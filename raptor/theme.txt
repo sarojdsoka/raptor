@@ -1,0 +1,43 @@
+# Background and Terminal Settings
+title-text: "Choose Youre Raptor"
+desktop-image: "background.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-border: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+
+# Boot Menu Settings
++ boot_menu {
+  left = 10%
+  top = 15%
+  width = 80%
+  height = 70%
+  item_color = "#FFFFFF"  # White text for readability
+  item_font = "Ubuntu Regular 16"
+  selected_item_font = "Ubuntu Bold 18"
+  selected_item_color = "#FF69B4"  # Hot pink for selected item (neon vibe)
+  icon_width = 48
+  icon_height = 48
+  item_icon_space = 20
+  item_height = 60
+  item_padding = 10
+  item_spacing = 30
+  selected_item_pixmap_style = "select_*.png"  # Neon highlight for selected item
+   
+}
+
+# Progress Bar Settings
++ progress_bar {
+  id = "__timeout__"
+  left = 10%
+  top = 85%
+  height = 5%
+  width = 80%
+  font = "Ubuntu Bold 14"
+  text_color = "#FFFFFF"  # White text
+  fg_color = "#FF1493"  # Deep pink for progress fill (neon effect)
+  border_color = "#FF69B4"  # Hot pink border
+  bg_color = "#1E1E2F"  # Dark background to match dinosaur
+  text = "Booting in %d seconds..."
+}
