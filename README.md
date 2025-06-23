@@ -1,6 +1,6 @@
 # Raptor- GRUB Theme
 
-![Raptor](https://github.com/sarojdsoka/raptor/preview.png)  
+![Raptor](https://github.com/sarojdsoka/preview.png)  
 *A vibrant and modern GRUB theme inspired by neon aesthetics and a fierce dinosaur vibe.*
 
 Welcome to **Raptor**, a custom GRUB theme designed to transform your bootloader into a visually stunning experience. This theme features a dark blue dinosaur with neon pink and purple lighting, making your boot menu look bold, attractive, and futuristic. Perfect for Garuda Linux or any other GRUB-supported system!
